@@ -1,2 +1,14 @@
 # ULMFiT_Sentiment_Analysis
-Sentiment analysis using ULMFiT Just the data cleaning and EDA has been done. Model fitting is yet to be started. 
+
+**Introduction**
+ULMFiT(Universal Language Model Fine-tuning for Text Classification) is a transfer learning technique that involves creating a Language Model that is capable of predicting the next word in a sentence, based on unsupervised learning of the WikiText 103 corpus. The ULMFiT has multiple LSTM layers, with dropout applied to every layer.
+The fast.ai wrapper wraps around ULMFiT and makes the text classification task easier but under the hood the concepts are quite complex. 
+
+**Objective**
+The objective of the project is to classify the sentiment expressed in the tweets. 
+
+**Data-set**
+https://www.kaggle.com/crowdflower/twitter-airline-sentiment
+
+**Results**
+The classifier built could classify with a decent accuracy of `0.82`. The optimal learning rate was found using LR_finder.
