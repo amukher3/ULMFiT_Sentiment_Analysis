@@ -12,7 +12,11 @@ https://www.kaggle.com/crowdflower/twitter-airline-sentiment
 
 **Results**
 The classifier built could classify with a decent accuracy of `0.82`. The optimal learning rate was found using LR_finder. The behaviour of the LR_finder is shown below. 
+
 ![](gradient_loss.png)
+
 The optimal learning rate on the training set is found and  is used in the validation/test set. 
+
 The behaviour of the loss function during training and validation is shown below. 
+
 ![](loss_function.png)
